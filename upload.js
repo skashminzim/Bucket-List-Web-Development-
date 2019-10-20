@@ -28,8 +28,8 @@ firebase.auth().onAuthStateChanged(function(user) {
     var user = firebase.auth().currentUser;
   } else {
     // No user is signed in.
-    window.alert("NOPW");
-    document.location.href="./log.html"
+  //  window.alert("NOPW");
+    document.location.href="./login.html"
   }
 });
 
