@@ -22,11 +22,11 @@ document.getElementById('commentForm').addEventListener('submit',submitForm);
 
 
       var user = firebase.auth().currentUser;
-    } else {
+    } //else {
       // No user is signed in.
     //  window.alert("NOPW");
-      document.location.href="./log.html"
-    }
+     // document.location.href="./log.html"
+    //}
   });
 
 
